@@ -28,7 +28,7 @@ print(f"{kilometers} km is equivalent to {miles} mi")
 
 euros = 1450
 pounds = euros * 0.85
-dollars = euros + 1.12 
+dollars = euros * 1.12 
 print(f"{euros} € is equivalent to {pounds} GBP")
 print(f"{euros} € is equivalent to {dollars} $")
 
@@ -63,9 +63,9 @@ number_mult = 10
 mult3 = number_mult % 3 == 0
 mult5 = number_mult % 5 == 0
 mult7 = number_mult % 7 == 0
-print(f"The numer {number_mult} is a multipl of 3 {mult3}")
-print(f"The numer {number_mult} is a multipl of 5 {mult5}")
-print(f"The numer {number_mult} is a multipl of 7 {mult7}")
+print(f"The numer {number_mult} is a multiple of 3 {mult3}")
+print(f"The numer {number_mult} is a multiple of 5 {mult5}")
+print(f"The numer {number_mult} is a multiple of 7 {mult7}")
 
 
 # Exercise 7 
@@ -101,6 +101,7 @@ units = 5
 tax = 20 
 print(f"Product: {name}")
 print(f"Unit price: {price}")
+print(f"Units: {units}")
 print(f"Subtotal: {price * units} €")
 print(f"Tax: {tax} %")
 print(f"Total price: {(price * units) + (price * units) * tax / 100} €")
